@@ -58,3 +58,44 @@ body {
 .banner-nav a:hover {
     color: #007acc;
 }
+
+
+/* === HERO SECTION === */
+.hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 60vh;
+    text-align: center;
+    padding: 2em;
+}
+
+.hero-title {
+    font-size: 5em;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    margin-bottom: 0.2em;
+}
+
+.hero-subtitle {
+    font-size: 1.5em;
+    max-width: 1000px;
+    margin: 0.5em auto;
+    line-height: 1.6;
+}
+
+.hero-button {
+    display: inline-block;
+    margin-top: 1em;
+    padding: 0.75em 3em;
+    font-size: 1.5em;
+    font-weight: bold;
+    background-color: gold;
+    color: black;
+    border-radius: 5px;
+}
+
+.hero-button:hover {
+    background-color: goldenrod;
+}
