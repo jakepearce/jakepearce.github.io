@@ -88,14 +88,14 @@ body {
     padding: 2em;
 }
 
-.hero-title {
+.title {
     font-size: 5em;
     font-weight: 700;
     letter-spacing: 0.05em;
     margin-bottom: 0.2em;
 }
 
-.hero-subtitle {
+.subtitle {
     font-size: 1.5em;
     max-width: 1000px;
     margin: 0.5em auto;
@@ -115,4 +115,34 @@ body {
 
 .hero-button:hover {
     background-color: goldenrod;
+}
+
+/* === PROJECTS SECTION === */
+#unity-game {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 4rem auto;
+}
+
+.unity-wrapper {
+    position: relative;
+    width: 100%;
+    max-width: 1280px;
+    aspect-ratio: 16 / 9;
+    margin: 2em;
+    margin-bottom: 5em;
+    overflow: hidden;
+}
+
+.unity-frame {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
 }
