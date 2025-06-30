@@ -125,21 +125,26 @@ body {
     align-items: center;
     justify-content: center;
     text-align: center;
-    margin: 4rem auto;
+    margin: 1em auto;
 }
 
 .unity-wrapper {
     position: relative;
-    width: 1920px;
-    height: 1080px;
+    width: 100%;
+    max-width: 1920px;
+    aspect-ratio: 16 / 9;
     margin: 2em;
     margin-bottom: 5em;
     overflow: hidden;
 }
 
 .unity-frame {
+    position: absolute;
+    top: 0;
+    left: 0;
     width: 100%;
     height: 100%;
-    border: none;
+    border: 5px solid #ccc;
+    box-sizing: border-box;
     display: block;
 }
