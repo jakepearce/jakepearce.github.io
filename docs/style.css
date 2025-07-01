@@ -102,7 +102,7 @@ body {
     line-height: 1.6;
 }
 
-.hero-button {
+.button {
     display: inline-block;
     margin-top: 1em;
     padding: 0.75em 3em;
@@ -113,7 +113,7 @@ body {
     border-radius: 5px;
 }
 
-.hero-button:hover {
+.button:hover {
     background-color: goldenrod;
 }
 
@@ -153,3 +153,44 @@ body {
     border-bottom: 1px solid #000;
     margin: auto;
 }
+
+/* === CONTACTS SECTION === */
+#contact-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    min-height: 60vh;
+    gap: 30px;
+    padding: 5em;
+}
+
+.header {
+    font-size: 4em;
+    font-weight: 400;
+    letter-spacing: 0.05em;
+    margin-bottom: 0.2em;
+}
+
+.socials-section {
+    display: flex;
+    gap: 1rem;
+    justify-content: center; 
+    align-items: center;  
+}
+
+.social-image {
+    height: 200px;
+    width: 200px;
+    background-color: white;
+    border-radius:10px;
+}
+
+/* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 60vh;
+    text-align: center;
+    padding: 2em; */
